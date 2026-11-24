@@ -1,0 +1,112 @@
+[
+  {
+    "titolo": {
+      "it": "Premio Comites “Eccellenza Italiana”",
+      "en": "Comites Award “Eccellenza Italiana”",
+      "pt": "Prémio Comites “Eccellenza Italiana”"
+    },
+    "descrizione": {
+      "it": "Conferito dal Comites nel 2025 per la promozione dell'italianità.",
+      "en": "Conferred by the Comites in 2025 for promoting Italian identity.",
+      "pt": "Atribuído pelo Comites em 2025 pela promoção da italianidade."
+    },
+    "medagliaRiga1": {
+      "it": "Premio",
+      "en": "Award",
+      "pt": "Prémio"
+    },
+    "medagliaRiga2": {
+      "it": "Comites",
+      "en": "Comites",
+      "pt": "Comites"
+    },
+    "galleria": [
+      "/uploads/materiale/comites/01.jpg",
+      "/uploads/materiale/comites/02.jpg",
+      "/uploads/materiale/comites/03.jpg",
+      "/uploads/materiale/comites/04.jpg",
+      "/uploads/materiale/comites/05.jpg",
+      "/uploads/materiale/comites/06.jpg",
+      "/uploads/materiale/comites/07.jpg",
+      "/uploads/materiale/comites/08.jpg",
+      "/uploads/materiale/comites/09.jpg",
+      "/uploads/materiale/comites/10.jpg",
+      "/uploads/materiale/comites/11.jpg",
+      "/uploads/materiale/comites/12.jpg",
+      "/uploads/materiale/comites/13.jpg",
+      "/uploads/materiale/comites/14.jpg",
+      "/uploads/materiale/comites/15.jpg"
+    ]
+  },
+  {
+    "titolo": {
+      "it": "Premio Eccellenza Autarchica – Cultura 2025",
+      "en": "Autarchic Excellence Award – Culture 2025",
+      "pt": "Prémio Excelência Autárquica – Cultura 2025"
+    },
+    "descrizione": {
+      "it": "Per l'impatto dei Cicli di Conferenze Luso‑Italiane.",
+      "en": "For the impact of the Luso‑Italian Conference Cycles.",
+      "pt": "Pelo impacto dos Ciclos de Conferências Luso‑Italianas."
+    },
+    "medagliaRiga1": {
+      "it": "Premio",
+      "en": "Award",
+      "pt": "Prémio"
+    },
+    "medagliaRiga2": {
+      "it": "Cultura 2025",
+      "en": "Culture 2025",
+      "pt": "Cultura 2025"
+    },
+    "galleria": [
+      "/uploads/materiale/autarquia/01.jpg"
+    ]
+  },
+  {
+    "titolo": {
+      "it": "Riconoscimento ufficiale della Regione Emilia‑Romagna",
+      "en": "Official recognition by the Emilia‑Romagna Region",
+      "pt": "Reconhecimento oficial da Região Emília‑Romanha"
+    },
+    "descrizione": {
+      "it": "Ai sensi della Legge Regionale n. 3/2006.",
+      "en": "Under Regional Law no. 3/2006.",
+      "pt": "Nos termos da Lei Regional n.º 3/2006."
+    },
+    "medagliaRiga1": {
+      "it": "Regione",
+      "en": "Region",
+      "pt": "Região"
+    },
+    "medagliaRiga2": {
+      "it": "L.R. 3/2006",
+      "en": "R.L. 3/2006",
+      "pt": "L.R. 3/2006"
+    },
+    "galleria": []
+  },
+  {
+    "titolo": {
+      "it": "Collaborazioni istituzionali",
+      "en": "Institutional collaborations",
+      "pt": "Colaborações institucionais"
+    },
+    "descrizione": {
+      "it": "Con enti pubblici, associazioni e organizzazioni internazionali.",
+      "en": "With public bodies, associations and international organisations.",
+      "pt": "Com entidades públicas, associações e organizações internacionais."
+    },
+    "medagliaRiga1": {
+      "it": "Rete",
+      "en": "Network",
+      "pt": "Rede"
+    },
+    "medagliaRiga2": {
+      "it": "Istituzioni",
+      "en": "Institutions",
+      "pt": "Instituições"
+    },
+    "galleria": []
+  }
+]

@@ -1,0 +1,1756 @@
+# Configurazione di Pages CMS (https://pagescms.org) per il sito AERPI.
+# Definisce il pannello con cui si modificano i file in website/content/.
+# Ogni testo ha le versioni it / en / pt: se en o pt restano vuoti, il sito mostra l'italiano.
+
+media:
+  input: website/uploads
+  output: /uploads
+settings:
+  content:
+    merge: true
+  commit:
+    identity: user
+content:
+  - name: eventi
+    label: Eventi
+    type: file
+    path: website/content/eventi.json
+    format: json
+    list: true
+    fields:
+      - name: titolo
+        label: Titolo
+        type: object
+        fields:
+          - name: it
+            label: Italiano
+            type: string
+            required: true
+          - name: en
+            label: English
+            type: string
+          - name: pt
+            label: Português
+            type: string
+      - name: id
+        label: "Nome nel link"
+        type: string
+        required: true
+        pattern:
+          regex: "^[a-z0-9-]+$"
+          message: "Solo lettere minuscole, numeri e trattini (es. cena-natale-2026)"
+        description: "Parte finale del link da condividere: aerpi.org/#evento-… Es.: cena-natale-2026. Deve essere diverso per ogni evento."
+      - name: data
+        label: Data
+        type: date
+        required: true
+        options:
+          format: yyyy-MM-dd
+      - name: dataFine
+        label: "Data di fine"
+        type: date
+        options:
+          format: yyyy-MM-dd
+        description: "Solo se l'evento dura più giorni."
+      - name: ora
+        label: Ora
+        type: string
+        description: "Facoltativa, es. 20:00"
+      - name: luogo
+        label: Luogo
+        type: string
+      - name: immagine
+        label: "Foto principale"
+        type: image
+      - name: breve
+        label: "Testo breve (nella scheda)"
+        type: object
+        fields:
+          - name: it
+            label: Italiano
+            type: text
+            required: true
+          - name: en
+            label: English
+            type: text
+          - name: pt
+            label: Português
+            type: text
+      - name: testo
+        label: "Testo completo (nel popup)"
+        type: object
+        fields:
+          - name: it
+            label: Italiano
+            type: text
+          - name: en
+            label: English
+            type: text
+          - name: pt
+            label: Português
+            type: text
+      - name: link
+        label: "Link (iscrizioni, locandina…)"
+        type: string
+        description: "Facoltativo. Indirizzo completo, es. https://… oppure mailto:info@aerpi.org"
+      - name: galleria
+        label: "Galleria foto"
+        type: image
+        options:
+          multiple: true
+        description: "Facoltativa. Foto mostrate nel popup; cliccandole si ingrandiscono."
+  - name: progetti
+    label: Progetti
+    type: file
+    path: website/content/progetti.json
+    format: json
+    list: true
+    fields:
+      - name: titolo
+        label: Titolo
+        type: string
+        required: true
+        description: "Uguale in tutte le lingue."
+      - name: id
+        label: "Codice interno"
+        type: string
+        hidden: true
+      - name: immagine
+        label: Foto
+        type: image
+      - name: testoAlternativo
+        label: "Descrizione della foto"
+        type: string
+        description: "Per chi usa un lettore di schermo."
+      - name: inArrivo
+        label: "Mostra l'etichetta «In arrivo»"
+        type: boolean
+      - name: etichetta
+        label: "Etichetta sopra il titolo (bando, tipo…)"
+        type: object
+        fields:
+          - name: it
+            label: Italiano
+            type: string
+            required: true
+          - name: en
+            label: English
+            type: string
+          - name: pt
+            label: Português
+            type: string
+      - name: descrizione
+        label: "Testo breve (nella scheda)"
+        type: object
+        fields:
+          - name: it
+            label: Italiano
+            type: text
+            required: true
+          - name: en
+            label: English
+            type: text
+          - name: pt
+            label: Português
+            type: text
+      - name: testoLungo
+        label: "Testo completo (nel popup)"
+        type: object
+        fields:
+          - name: it
+            label: Italiano
+            type: text
+            required: true
+          - name: en
+            label: English
+            type: text
+          - name: pt
+            label: Português
+            type: text
+      - name: galleria
+        label: "Galleria foto"
+        type: image
+        options:
+          multiple: true
+        description: "Facoltativa. Foto mostrate nel popup; cliccandole si ingrandiscono."
+  - name: attivita
+    label: Attività
+    type: file
+    path: website/content/attivita.json
+    format: json
+    list: true
+    fields:
+      - name: titolo
+        label: Titolo
+        type: object
+        fields:
+          - name: it
+            label: Italiano
+            type: string
+            required: true
+          - name: en
+            label: English
+            type: string
+          - name: pt
+            label: Português
+            type: string
+      - name: descrizione
+        label: "Testo breve (nella scheda)"
+        type: object
+        fields:
+          - name: it
+            label: Italiano
+            type: text
+            required: true
+          - name: en
+            label: English
+            type: text
+          - name: pt
+            label: Português
+            type: text
+      - name: dettagli
+        label: "Punti elenco nel popup"
+        type: object
+        fields:
+          - name: it
+            label: "Punti elenco nel popup – Italiano"
+            type: text
+            list: true
+          - name: en
+            label: "Punti elenco nel popup – English"
+            type: text
+            list: true
+          - name: pt
+            label: "Punti elenco nel popup – Português"
+            type: text
+            list: true
+      - name: galleria
+        label: "Galleria foto"
+        type: image
+        options:
+          multiple: true
+        description: "Facoltativa. Foto mostrate nel popup; cliccandole si ingrandiscono."
+  - name: riconoscimenti
+    label: Riconoscimenti
+    type: file
+    path: website/content/riconoscimenti.json
+    format: json
+    list: true
+    fields:
+      - name: titolo
+        label: Titolo
+        type: object
+        fields:
+          - name: it
+            label: Italiano
+            type: string
+            required: true
+          - name: en
+            label: English
+            type: string
+          - name: pt
+            label: Português
+            type: string
+      - name: descrizione
+        label: Descrizione
+        type: object
+        fields:
+          - name: it
+            label: Italiano
+            type: text
+            required: true
+          - name: en
+            label: English
+            type: text
+          - name: pt
+            label: Português
+            type: text
+      - name: medagliaRiga1
+        label: "Medaglia – riga 1 (parola corta)"
+        type: object
+        fields:
+          - name: it
+            label: Italiano
+            type: string
+            required: true
+          - name: en
+            label: English
+            type: string
+          - name: pt
+            label: Português
+            type: string
+      - name: medagliaRiga2
+        label: "Medaglia – riga 2 (parola corta)"
+        type: object
+        fields:
+          - name: it
+            label: Italiano
+            type: string
+            required: true
+          - name: en
+            label: English
+            type: string
+          - name: pt
+            label: Português
+            type: string
+      - name: galleria
+        label: "Galleria foto"
+        type: image
+        options:
+          multiple: true
+        description: "Facoltativa. Se presente, la scheda diventa cliccabile."
+  - name: rete
+    label: "La rete – voci"
+    type: file
+    path: website/content/rete.json
+    format: json
+    list: true
+    fields:
+      - name: it
+        label: Italiano
+        type: string
+        required: true
+      - name: en
+        label: English
+        type: string
+      - name: pt
+        label: Português
+        type: string
+  - name: cartoline
+    label: Cartoline
+    type: file
+    path: website/content/cartoline.json
+    format: json
+    list: true
+    fields:
+      - name: citta
+        label: Città
+        type: string
+        required: true
+        description: "Le cartoline sono 6, ognuna con una posizione fissa nel disegno: modificare testi e immagini, ma non aggiungerne né toglierne."
+      - name: immagine
+        label: "Cartolina (fronte)"
+        type: image
+      - name: prodotto
+        label: "Prodotto tipico"
+        type: string
+      - name: immagineProdotto
+        label: "Foto del prodotto tipico"
+        type: image
+      - name: note
+        label: "Note sul retro"
+        type: object
+        fields:
+          - name: it
+            label: "Note sul retro – Italiano"
+            type: text
+            list: true
+          - name: en
+            label: "Note sul retro – English"
+            type: text
+            list: true
+          - name: pt
+            label: "Note sul retro – Português"
+            type: text
+            list: true
+      - name: codice
+        type: string
+        hidden: true
+      - name: posizione
+        type: string
+        hidden: true
+      - name: livello
+        type: number
+        hidden: true
+  - name: testi
+    label: "Testi del sito"
+    type: file
+    path: website/content/testi.json
+    format: json
+    fields:
+      - name: intestazione
+        label: "Intestazione e menu"
+        type: object
+        fields:
+          - name: topbar
+            label: "Frase nella barra in alto"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: navHome
+            label: "Menu: Home"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: navChi
+            label: "Menu: Chi siamo"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: navAtt
+            label: "Menu: Attività"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: navProg
+            label: "Menu: Progetti"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: navRete
+            label: "Menu: La rete"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: navRic
+            label: "Menu: Riconoscimenti"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: navCont
+            label: "Menu: Contatti"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: navSocio
+            label: "Menu: pulsante «Diventa socio»"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+      - name: hero
+        label: "Apertura della pagina"
+        type: object
+        fields:
+          - name: heroEyebrow
+            label: "Occhiello (sopra il titolo)"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: emblemTag
+            label: "Motto sotto l'emblema del progetto"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: heroTitleA
+            label: "Titolo – prima parte"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: heroTitleEm
+            label: "Titolo – parola evidenziata"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: heroTitleB
+            label: "Titolo – parte finale"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: heroP
+            label: "Testo introduttivo"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: text
+                required: true
+              - name: en
+                label: English
+                type: text
+              - name: pt
+                label: Português
+                type: text
+          - name: heroCta1
+            label: "Pulsante principale"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: heroCta2
+            label: "Pulsante secondario"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: heroHint
+            label: "Suggerimento sotto le cartoline"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: zoomHint
+            label: "Suggerimento nella cartolina ingrandita"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+      - name: cartoline
+        label: "Cartoline – testi comuni"
+        type: object
+        fields:
+          - name: pcHi
+            label: "Saluto sul retro (seguito dal nome della città)"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: conAmore
+            label: "Firma sul retro (seguita dal nome della città)"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+      - name: numeri
+        label: Numeri
+        type: object
+        fields:
+          - name: n1
+            label: "Didascalia del numero 1"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: n2
+            label: "Didascalia del numero 2"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: n3
+            label: "Didascalia del numero 3"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: n4
+            label: "Didascalia del numero 4"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+      - name: chiSiamo
+        label: "Chi siamo"
+        type: object
+        fields:
+          - name: chiEyebrow
+            label: Occhiello
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: chiTitle
+            label: Titolo
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: chiB1
+            label: "Punto 1"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: chiB2
+            label: "Punto 2"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: chiB3
+            label: "Punto 3"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: chiBig
+            label: "Paragrafo principale"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: text
+                required: true
+              - name: en
+                label: English
+                type: text
+              - name: pt
+                label: Português
+                type: text
+          - name: chiBig2
+            label: "Secondo paragrafo"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: text
+                required: true
+              - name: en
+                label: English
+                type: text
+              - name: pt
+                label: Português
+                type: text
+      - name: attivita
+        label: "Attività – intestazione"
+        type: object
+        fields:
+          - name: attEyebrow
+            label: Occhiello
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: attTitle
+            label: Titolo
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: attSub
+            label: Sottotitolo
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: text
+                required: true
+              - name: en
+                label: English
+                type: text
+              - name: pt
+                label: Português
+                type: text
+      - name: progetti
+        label: "Progetti – intestazione"
+        type: object
+        fields:
+          - name: progEyebrow
+            label: Occhiello
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: progTitle
+            label: Titolo
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: progIntro
+            label: Introduzione
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: text
+                required: true
+              - name: en
+                label: English
+                type: text
+              - name: pt
+                label: Português
+                type: text
+          - name: inArrivo
+            label: "Etichetta «In arrivo»"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: leggi
+            label: "Link «Scopri di più» (usato in tutto il sito)"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: modalCta
+            label: "Pulsante nel popup dei progetti"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+      - name: eventi
+        label: "Eventi – intestazione e pulsanti"
+        type: object
+        fields:
+          - name: evEyebrow
+            label: Occhiello
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: evTitle
+            label: Titolo
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: evIntro
+            label: Introduzione
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: text
+                required: true
+              - name: en
+                label: English
+                type: text
+              - name: pt
+                label: Português
+                type: text
+          - name: evProssimi
+            label: "Titoletto «Prossimi eventi»"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: evPassati
+            label: "Titoletto «Eventi passati»"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: evNessuno
+            label: "Messaggio quando non ci sono eventi in programma"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: text
+                required: true
+              - name: en
+                label: English
+                type: text
+              - name: pt
+                label: Português
+                type: text
+          - name: evMostraTutti
+            label: "Pulsante «Mostra tutti»"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: evMostraMeno
+            label: "Pulsante «Mostra meno»"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: evLink
+            label: "Pulsante del link nell'evento"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: evShare
+            label: "Pulsante «Condividi»"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: evCopied
+            label: "Conferma «Link copiato»"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+      - name: rete
+        label: "La rete – intestazione"
+        type: object
+        fields:
+          - name: reteEyebrow
+            label: Occhiello
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: reteTitle
+            label: Titolo
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: reteIntro
+            label: "Frase d'apertura"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: reteIntro2
+            label: Paragrafo
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: text
+                required: true
+              - name: en
+                label: English
+                type: text
+              - name: pt
+                label: Português
+                type: text
+          - name: visita
+            label: "Link «Visita il sito»"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+      - name: riconoscimenti
+        label: "Riconoscimenti – intestazione"
+        type: object
+        fields:
+          - name: ricEyebrow
+            label: Occhiello
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: ricTitle
+            label: Titolo
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: ricDesc
+            label: Descrizione
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: text
+                required: true
+              - name: en
+                label: English
+                type: text
+              - name: pt
+                label: Português
+                type: text
+      - name: diventaSocio
+        label: "Diventa socio"
+        type: object
+        fields:
+          - name: socioEyebrow
+            label: Occhiello
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: socioTitle
+            label: Titolo
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: socioPara
+            label: Paragrafo
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: text
+                required: true
+              - name: en
+                label: English
+                type: text
+              - name: pt
+                label: Português
+                type: text
+          - name: socioNote
+            label: "Titolo della nota scritta a mano"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: socioB1
+            label: "Nota – punto 1"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: socioB2
+            label: "Nota – punto 2"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: socioB3
+            label: "Nota – punto 3"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: socioB4
+            label: "Nota – punto 4"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: socioForm
+            label: "Titolo del modulo di adesione"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: submitSocioIdle
+            label: "Pulsante di invio adesione"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+      - name: contatti
+        label: Contatti
+        type: object
+        fields:
+          - name: contEyebrow
+            label: Occhiello
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: contTitle
+            label: Titolo
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: contInvite
+            label: "Frase d'invito"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: text
+                required: true
+              - name: en
+                label: English
+                type: text
+              - name: pt
+                label: Português
+                type: text
+          - name: contForm
+            label: "Titolo del modulo"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: lblEmailGen
+            label: "Etichetta dell'email"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: submitContIdle
+            label: "Pulsante di invio"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+      - name: moduli
+        label: "Moduli – campi e messaggi"
+        type: object
+        fields:
+          - name: phNome
+            label: "Campo: Nome"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: phCognome
+            label: "Campo: Cognome"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: phNascLuogo
+            label: "Campo: Luogo di nascita"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: phNascData
+            label: "Campo: Data di nascita"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: phTel
+            label: "Campo: Telefono"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: phIndirizzo
+            label: "Campo: Indirizzo"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: phCap
+            label: "Campo: Codice postale"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: phProv
+            label: "Campo: Distretto / Provincia"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: phMsg
+            label: "Campo: Messaggio"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: phIdea
+            label: "Campo: Proposta (modulo contatti)"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: privacyA
+            label: "Privacy – testo prima del link"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: privacyLink
+            label: "Privacy – testo del link"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: sending
+            label: "Messaggio «Invio in corso»"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: sent
+            label: "Messaggio di invio riuscito"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: errMsg
+            label: "Messaggio di errore"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: text
+                required: true
+              - name: en
+                label: English
+                type: text
+              - name: pt
+                label: Português
+                type: text
+      - name: piePagina
+        label: "Piè di pagina"
+        type: object
+        fields:
+          - name: footTag
+            label: Descrizione
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: text
+                required: true
+              - name: en
+                label: English
+                type: text
+              - name: pt
+                label: Português
+                type: text
+          - name: footColPage
+            label: "Titolo della colonna «Pagina»"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: creditA
+            label: "Testo «Sito realizzato da»"
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string
+          - name: copyright
+            label: Copyright
+            type: object
+            fields:
+              - name: it
+                label: Italiano
+                type: string
+                required: true
+              - name: en
+                label: English
+                type: string
+              - name: pt
+                label: Português
+                type: string

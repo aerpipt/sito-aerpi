@@ -1,0 +1,12 @@
+# Vercel (collegamento locale al progetto)
+.vercel
+# File di sistema e strumenti locali
+.DS_Store
+.claude
+.playwright-mcp
+# Materiale sorgente non pubblicato (pesante, resta solo in locale)
+FOTO SITO AERPI
+Aerpi Associazione
+Aerpi Associazione.zip
+# Handoff con riferimenti agli account: resta solo in locale
+Aerpi.md

@@ -1,0 +1,105 @@
+[
+  {
+    "id": "mosaici",
+    "titolo": "“Mosaici in dialogo”",
+    "immagine": "https://commons.wikimedia.org/wiki/Special:FilePath/Mosaic%20of%20Justinianus%20I%20-%20Basilica%20San%20Vitale%20(Ravenna).jpg?width=900",
+    "testoAlternativo": "Mosaici in dialogo",
+    "inArrivo": false,
+    "etichetta": {
+      "it": "Bando Attività Ordinarie 2026 · L.R. 5/2015",
+      "en": "Ordinary Activities Call 2026 · R.L. 5/2015",
+      "pt": "Bando Atividades Ordinárias 2026 · L.R. 5/2015"
+    },
+    "descrizione": {
+      "it": "Progetto sostenuto dalla Regione Emilia‑Romagna nell'ambito del bando per le attività ordinarie 2026.",
+      "en": "Project supported by the Emilia‑Romagna Region under the 2026 ordinary activities call.",
+      "pt": "Projeto apoiado pela Região Emília‑Romanha no âmbito do concurso para as atividades ordinárias de 2026."
+    },
+    "testoLungo": {
+      "it": "Un percorso che ha messo in dialogo l'arte del mosaico, simbolo di Ravenna e dell'Emilia‑Romagna, con la comunità portoghese, attraverso incontri e attività condivise. Sostenuto dalla Regione Emilia‑Romagna nell'ambito del Bando Attività Ordinarie 2026 (L.R. 5/2015).",
+      "en": "A project that brought the art of mosaic, a symbol of Ravenna and Emilia‑Romagna, into dialogue with the Portuguese community through meetings and shared activities. Supported by the Emilia‑Romagna Region under the 2026 Ordinary Activities Call (R.L. 5/2015).",
+      "pt": "Um percurso que pôs em diálogo a arte do mosaico, símbolo de Ravena e da Emília‑Romanha, com a comunidade portuguesa, através de encontros e atividades partilhadas. Apoiado pela Região Emília‑Romanha no âmbito do concurso Atividades Ordinárias 2026 (L.R. 5/2015)."
+    },
+    "galleria": [
+      "/uploads/materiale/mosaici/01.jpg",
+      "/uploads/materiale/mosaici/02.jpg",
+      "/uploads/materiale/mosaici/03.jpg",
+      "/uploads/materiale/mosaici/04.jpg"
+    ]
+  },
+  {
+    "id": "ruas",
+    "titolo": "“Ruas com sotaque”",
+    "immagine": "https://commons.wikimedia.org/wiki/Special:FilePath/Lisbon%20main%20square%20(36622604910).jpg?width=900",
+    "testoAlternativo": "Ruas com sotaque",
+    "inArrivo": true,
+    "etichetta": {
+      "it": "Bando Cultura+ LVT",
+      "en": "Cultura+ LVT call",
+      "pt": "Concurso Cultura+ LVT"
+    },
+    "descrizione": {
+      "it": "Progetto sostenuto dal bando Cultura+ della regione di Lisbona e Valle del Tejo.",
+      "en": "Project supported by the Cultura+ call of the Lisbon and Tagus Valley region.",
+      "pt": "Projeto apoiado pelo concurso Cultura+ da região de Lisboa e Vale do Tejo."
+    },
+    "testoLungo": {
+      "it": "\"Strade con accento\": un progetto dedicato alle voci, alle presenze e alle storie italiane nelle strade di Lisbona e della sua regione, sostenuto dal bando Cultura+ Lisboa e Vale do Tejo.",
+      "en": "\"Streets with an accent\": a project dedicated to the Italian voices, presences and stories in the streets of Lisbon and its region, supported by the Cultura+ Lisboa e Vale do Tejo call.",
+      "pt": "\"Ruas com sotaque\": um projeto dedicado às vozes, às presenças e às histórias italianas nas ruas de Lisboa e da sua região, apoiado pelo concurso Cultura+ Lisboa e Vale do Tejo."
+    },
+    "galleria": []
+  },
+  {
+    "id": "niballo",
+    "titolo": "“Niballo” — Palio di Faenza",
+    "immagine": "https://commons.wikimedia.org/wiki/Special:FilePath/Faenza%2C%20piazza%20del%20Popolo%20(01).jpg?width=900",
+    "testoAlternativo": "Niballo — Palio di Faenza",
+    "inArrivo": false,
+    "etichetta": {
+      "it": "Sbandieratori",
+      "en": "Flag‑wavers",
+      "pt": "Porta‑bandeiras"
+    },
+    "descrizione": {
+      "it": "La tradizione degli sbandieratori del Niballo — Palio di Faenza portata in Portogallo.",
+      "en": "The flag‑waving tradition of the Niballo — Palio di Faenza brought to Portugal.",
+      "pt": "A tradição dos porta‑bandeiras do Niballo — Palio de Faenza trazida a Portugal."
+    },
+    "testoLungo": {
+      "it": "Gli sbandieratori del Niballo, il Palio di Faenza, portano in Portogallo una delle tradizioni più spettacolari della Romagna, con esibizioni e momenti di incontro con la comunità.",
+      "en": "The flag‑wavers of the Niballo, Faenza's Palio, bring one of Romagna's most spectacular traditions to Portugal, with performances and moments of encounter with the community.",
+      "pt": "Os porta‑bandeiras do Niballo, o Palio de Faenza, trazem a Portugal uma das tradições mais espetaculares da Romanha, com exibições e momentos de encontro com a comunidade."
+    },
+    "galleria": [
+      "/uploads/materiale/niballo/01.jpg",
+      "/uploads/materiale/niballo/02.jpg",
+      "/uploads/materiale/niballo/03.jpg"
+    ]
+  },
+  {
+    "id": "schengen",
+    "titolo": "“Vite da Schengen”",
+    "immagine": "https://commons.wikimedia.org/wiki/Special:FilePath/25%20de%20Abril%20Bridge%2C%20Lisbon.jpg?width=900",
+    "testoAlternativo": "Vite da Schengen",
+    "inArrivo": false,
+    "etichetta": {
+      "it": "Bando Attività Ordinarie 2025 · L.R. 5/2015",
+      "en": "Ordinary Activities Call 2025 · R.L. 5/2015",
+      "pt": "Bando Atividades Ordinárias 2025 · L.R. 5/2015"
+    },
+    "descrizione": {
+      "it": "AERPI partner del progetto che dà voce agli under 40 italiani tra Italia, Francia, Spagna e Portogallo.",
+      "en": "AERPI partner in the project giving a voice to Italians under 40 across Italy, France, Spain and Portugal.",
+      "pt": "A AERPI é parceira do projeto que dá voz aos italianos com menos de 40 anos entre Itália, França, Espanha e Portugal."
+    },
+    "testoLungo": {
+      "it": "\"Vite da Schengen\" dà voce agli italiani under 40 che hanno vissuto, studiato e lavorato tra Italia, Francia, Spagna e Portogallo, raccontando come la scomparsa delle frontiere abbia cambiato la vita quotidiana e il senso di appartenenza. AERPI partner; progetto sostenuto dalla Regione Emilia‑Romagna (Bando Attività Ordinarie 2025, L.R. 5/2015).",
+      "en": "\"Lives from Schengen\" gives a voice to Italians under 40 who have lived, studied and worked across Italy, France, Spain and Portugal, recounting how the disappearance of borders changed daily life and the sense of belonging. AERPI partner; project supported by the Emilia‑Romagna Region (2025 Ordinary Activities Call, R.L. 5/2015).",
+      "pt": "\"Vidas de Schengen\" dá voz aos italianos com menos de 40 anos que viveram, estudaram e trabalharam entre Itália, França, Espanha e Portugal, contando como o desaparecimento das fronteiras mudou o quotidiano e o sentido de pertença. AERPI parceira; projeto apoiado pela Região Emília‑Romanha (Bando Atividades Ordinárias 2025, L.R. 5/2015)."
+    },
+    "galleria": [
+      "/uploads/materiale/schengen/01.jpg"
+    ]
+  }
+]

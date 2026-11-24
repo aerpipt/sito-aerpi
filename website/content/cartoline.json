@@ -1,0 +1,176 @@
+[
+  {
+    "codice": "bo",
+    "citta": "Bologna",
+    "immagine": "/uploads/cartolina-bologna.png",
+    "prodotto": "Tortellini",
+    "immagineProdotto": "https://commons.wikimedia.org/wiki/Special:FilePath/Tortellini.jpg?width=200",
+    "note": {
+      "it": [
+        "La Dotta: per l'Università più antica d'Europa (1088)",
+        "la Grassa: per la sua celebre cucina",
+        "la Rossa: per i suoi colori caldi",
+        "62 km di portici Patrimonio UNESCO",
+        "Le Torri sono il simbolo della città"
+      ],
+      "en": [
+        "La Dotta: home to Europe's oldest university (1088)",
+        "la Grassa: for its famous cuisine",
+        "la Rossa: for its warm colours",
+        "62 km of porticoes, UNESCO World Heritage",
+        "The Towers are the city's symbol"
+      ],
+      "pt": [
+        "La Dotta: a universidade mais antiga da Europa (1088)",
+        "la Grassa: pela sua célebre cozinha",
+        "la Rossa: pelas suas cores quentes",
+        "62 km de pórticos, Património UNESCO",
+        "As Torres são o símbolo da cidade"
+      ]
+    },
+    "posizione": "left:-4%;top:0;width:54%;transform:rotate(-4deg);",
+    "livello": 14
+  },
+  {
+    "codice": "mo",
+    "citta": "Modena",
+    "immagine": "/uploads/cartolina-modena.png",
+    "prodotto": "Aceto Balsamico",
+    "immagineProdotto": "https://commons.wikimedia.org/wiki/Special:FilePath/Aceto%20Balsamico.jpg?width=200",
+    "note": {
+      "it": [
+        "La Motor Valley",
+        "La patria dell'Aceto Balsamico",
+        "La città natale di Pavarotti",
+        "Il Duomo è un capolavoro romanico Patrimonio UNESCO"
+      ],
+      "en": [
+        "The Motor Valley",
+        "Home of Balsamic Vinegar",
+        "Pavarotti's birthplace",
+        "The Cathedral, a Romanesque masterpiece — UNESCO"
+      ],
+      "pt": [
+        "A Motor Valley",
+        "A pátria do Vinagre Balsâmico",
+        "A cidade natal de Pavarotti",
+        "A Catedral é uma obra-prima românica, Património UNESCO"
+      ]
+    },
+    "posizione": "right:-4%;top:4%;width:53%;transform:rotate(3.5deg);",
+    "livello": 15
+  },
+  {
+    "codice": "ra",
+    "citta": "Ravenna",
+    "immagine": "/uploads/cartolina-ravenna.png",
+    "prodotto": "Mosaici di San Vitale",
+    "immagineProdotto": "https://commons.wikimedia.org/wiki/Special:FilePath/Mosaic%20of%20Justinianus%20I%20-%20Basilica%20San%20Vitale%20(Ravenna).jpg?width=200",
+    "note": {
+      "it": [
+        "Tre volte Capitale",
+        "Capitale mondiale del mosaico",
+        "Otto monumenti Patrimonio UNESCO",
+        "Qui riposa Dante Alighieri"
+      ],
+      "en": [
+        "Three times a capital",
+        "World capital of mosaic",
+        "Eight UNESCO monuments",
+        "Dante Alighieri rests here"
+      ],
+      "pt": [
+        "Três vezes capital",
+        "Capital mundial do mosaico",
+        "Oito monumentos Património UNESCO",
+        "Aqui repousa Dante Alighieri"
+      ]
+    },
+    "posizione": "left:-4%;top:27%;width:54%;transform:rotate(2deg);",
+    "livello": 13
+  },
+  {
+    "codice": "pa",
+    "citta": "Parma",
+    "immagine": "/uploads/cartolina-parma.png",
+    "prodotto": "Prosciutto di Parma",
+    "immagineProdotto": "https://commons.wikimedia.org/wiki/Special:FilePath/Prosciutto%20di%20parma.jpg?width=400",
+    "note": {
+      "it": [
+        "Capitale italiana del gusto",
+        "Patria del Prosciutto di Parma",
+        "Città Creativa UNESCO per la Gastronomia",
+        "Città della musica di Verdi e Toscanini"
+      ],
+      "en": [
+        "Italy's capital of taste",
+        "Home of Prosciutto di Parma",
+        "UNESCO Creative City of Gastronomy",
+        "City of the music of Verdi and Toscanini"
+      ],
+      "pt": [
+        "Capital italiana do sabor",
+        "Pátria do Presunto de Parma",
+        "Cidade Criativa UNESCO da Gastronomia",
+        "Cidade da música de Verdi e Toscanini"
+      ]
+    },
+    "posizione": "right:-4%;top:34%;width:53%;transform:rotate(-3deg);",
+    "livello": 9
+  },
+  {
+    "codice": "re",
+    "citta": "Reggio Emilia",
+    "immagine": "/uploads/cartolina-reggio.png",
+    "prodotto": "Parmigiano Reggiano",
+    "immagineProdotto": "https://commons.wikimedia.org/wiki/Special:FilePath/Parmigiano%20reggiano%20piece.jpg?width=400",
+    "note": {
+      "it": [
+        "La città dove nacque il Tricolore italiano!",
+        "La patria del Parmigiano Reggiano",
+        "Cultura e innovazione convivono in ogni angolo della città"
+      ],
+      "en": [
+        "The city where the Italian Tricolour was born!",
+        "Home of Parmigiano Reggiano",
+        "Culture and innovation at every corner of the city"
+      ],
+      "pt": [
+        "A cidade onde nasceu a bandeira Tricolor italiana!",
+        "A pátria do Parmigiano Reggiano",
+        "Cultura e inovação convivem em cada canto da cidade"
+      ]
+    },
+    "posizione": "left:-4%;top:56%;width:54%;transform:rotate(2.5deg);",
+    "livello": 8
+  },
+  {
+    "codice": "ri",
+    "citta": "Rimini",
+    "immagine": "/uploads/cartolina-rimini.png",
+    "prodotto": "Piadina romagnola",
+    "immagineProdotto": "https://commons.wikimedia.org/wiki/Special:FilePath/Piadina.jpg?width=400",
+    "note": {
+      "it": [
+        "Città natale di Federico Fellini!",
+        "Una delle capitali del mare",
+        "Patria della Piadina romagnola",
+        "L'Arco di Augusto racconta la storia dell'antica Roma"
+      ],
+      "en": [
+        "Federico Fellini's birthplace!",
+        "One of the capitals of the sea",
+        "Home of Piadina romagnola",
+        "The Arch of Augustus tells the story of ancient Rome"
+      ],
+      "pt": [
+        "Cidade natal de Federico Fellini!",
+        "Uma das capitais do mar",
+        "Pátria da Piadina romagnola",
+        "O Arco de Augusto conta a história da antiga Roma"
+      ]
+    },
+    "posizione": "right:-4%;top:63%;width:53%;transform:rotate(-2.5deg);",
+    "livello": 7
+  }
+]

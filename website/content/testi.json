@@ -1,0 +1,505 @@
+{
+  "intestazione": {
+    "topbar": {
+      "it": "Comunità emiliano‑romagnola in Portogallo",
+      "en": "Emilia‑Romagna community in Portugal",
+      "pt": "Comunidade emiliano‑romanhola em Portugal"
+    },
+    "navHome": {
+      "it": "Home",
+      "en": "Home",
+      "pt": "Início"
+    },
+    "navChi": {
+      "it": "Chi siamo",
+      "en": "About us",
+      "pt": "Quem somos"
+    },
+    "navAtt": {
+      "it": "Attività",
+      "en": "Activities",
+      "pt": "Atividades"
+    },
+    "navProg": {
+      "it": "Progetti",
+      "en": "Projects",
+      "pt": "Projetos"
+    },
+    "navRete": {
+      "it": "La rete",
+      "en": "Network",
+      "pt": "A rede"
+    },
+    "navRic": {
+      "it": "Riconoscimenti",
+      "en": "Awards",
+      "pt": "Reconhecimentos"
+    },
+    "navCont": {
+      "it": "Contatti",
+      "en": "Contact",
+      "pt": "Contactos"
+    },
+    "navSocio": {
+      "it": "Diventa socio",
+      "en": "Become a member",
+      "pt": "Torne‑se sócio"
+    }
+  },
+  "hero": {
+    "heroEyebrow": {
+      "it": "Lisbona · dal 2009",
+      "en": "Lisbon · since 2009",
+      "pt": "Lisboa · desde 2009"
+    },
+    "emblemTag": {
+      "it": "Cultura · Comunità · Futuro",
+      "en": "Culture · Community · Future",
+      "pt": "Cultura · Comunidade · Futuro"
+    },
+    "heroTitleA": {
+      "it": "Dall'Emilia‑Romagna al ",
+      "en": "From Emilia‑Romagna to ",
+      "pt": "Da Emília‑Romanha a "
+    },
+    "heroTitleEm": {
+      "it": "Portogallo",
+      "en": "Portugal",
+      "pt": "Portugal"
+    },
+    "heroTitleB": {
+      "it": ", con le radici in tasca.",
+      "en": ", with our roots in our pocket.",
+      "pt": ", com as raízes no bolso."
+    },
+    "heroP": {
+      "it": "AERPI riunisce chi ha lasciato l'Emilia‑Romagna per studiare, lavorare e vivere in Portogallo. Cultura, lingua, professioni e legami vivi con la terra d'origine.",
+      "en": "AERPI brings together those who left Emilia‑Romagna to study, work and live in Portugal. Culture, language, professions and living ties to the homeland.",
+      "pt": "A AERPI reúne quem deixou a Emília‑Romanha para estudar, trabalhar e viver em Portugal. Cultura, língua, profissões e laços vivos com a terra de origem."
+    },
+    "heroCta1": {
+      "it": "Unisciti a noi",
+      "en": "Join us",
+      "pt": "Junta‑te a nós"
+    },
+    "heroCta2": {
+      "it": "Scopri l'associazione",
+      "en": "Discover the association",
+      "pt": "Conheça a associação"
+    },
+    "heroHint": {
+      "it": "Clicca per girarle · lente per ingrandirle",
+      "en": "Click to flip · magnifier to zoom",
+      "pt": "Clique para virar · lupa para ampliar"
+    },
+    "zoomHint": {
+      "it": "Clicca la cartolina per girarla",
+      "en": "Click the postcard to flip it",
+      "pt": "Clique no postal para o virar"
+    }
+  },
+  "cartoline": {
+    "pcHi": {
+      "it": "Saluti da ",
+      "en": "Greetings from ",
+      "pt": "Saudações de "
+    },
+    "conAmore": {
+      "it": "con amore, da",
+      "en": "with love, from",
+      "pt": "com amor, de"
+    }
+  },
+  "numeri": {
+    "n1": {
+      "it": "Anno di fondazione",
+      "en": "Year founded",
+      "pt": "Ano de fundação"
+    },
+    "n2": {
+      "it": "Province emiliano‑romagnole",
+      "en": "Provinces of Emilia‑Romagna",
+      "pt": "Províncias da Emília‑Romanha"
+    },
+    "n3": {
+      "it": "Ambiti di attività",
+      "en": "Areas of activity",
+      "pt": "Áreas de atividade"
+    },
+    "n4": {
+      "it": "Comunità, due mondi",
+      "en": "One community, two worlds",
+      "pt": "Comunidade, dois mundos"
+    }
+  },
+  "chiSiamo": {
+    "chiEyebrow": {
+      "it": "Chi siamo",
+      "en": "About us",
+      "pt": "Quem somos"
+    },
+    "chiTitle": {
+      "it": "Un' associazione di nuova generazione",
+      "en": "A new‑generation association",
+      "pt": "Uma associação de nova geração"
+    },
+    "chiB1": {
+      "it": "Associazione culturale senza scopo di lucro · dal 2009",
+      "en": "Non‑profit cultural association · since 2009",
+      "pt": "Associação cultural sem fins lucrativos · desde 2009"
+    },
+    "chiB2": {
+      "it": "Attiva in Portogallo",
+      "en": "Active in Portugal",
+      "pt": "Ativa em Portugal"
+    },
+    "chiB3": {
+      "it": "Riconosciuta dalla Regione Emilia‑Romagna (L.R. 3/2006)",
+      "en": "Recognised by the Emilia‑Romagna Region (R.L. 3/2006)",
+      "pt": "Reconhecida pela Região Emília‑Romanha (L.R. 3/2006)"
+    },
+    "chiBig": {
+      "it": "Un' associazione culturale senza scopo di lucro, attiva dal 2009 per rafforzare i legami tra gli emiliano‑romagnoli nella Penisola Iberica e la Regione Emilia‑Romagna.",
+      "en": "A non‑profit cultural association, active since 2009 to strengthen the ties between the Emilia‑Romagnans of the Iberian Peninsula and the Emilia‑Romagna Region.",
+      "pt": "Uma associação cultural sem fins lucrativos, ativa desde 2009 para reforçar os laços entre os emiliano‑romanhóis na Península Ibérica e a Região Emília‑Romanha."
+    },
+    "chiBig2": {
+      "it": "Negli anni è divenuta un punto di riferimento per la comunità emiliano‑romagnola e italiana all'estero, valorizzando la cultura, la lingua, l'integrazione sociale e la partecipazione democratica. La nostra comunità è composta da professionisti, imprenditori, studenti, famiglie e pensionati che contribuiscono, con competenze ed esperienze diverse, alla crescita dell'associazione e alla diffusione della nostra cultura in Portogallo.",
+      "en": "Over the years it has become a reference point for the Emilia‑Romagna and Italian community abroad, promoting culture, language, social integration and democratic participation. Our community brings together professionals, entrepreneurs, students, families and retirees who contribute, with their different skills and experiences, to the association's growth and to spreading our culture in Portugal.",
+      "pt": "Ao longo dos anos tornou‑se uma referência para a comunidade emiliano‑romanhola e italiana no estrangeiro, valorizando a cultura, a língua, a integração social e a participação democrática. A nossa comunidade reúne profissionais, empresários, estudantes, famílias e reformados que contribuem, com competências e experiências diversas, para o crescimento da associação e para a difusão da nossa cultura em Portugal."
+    }
+  },
+  "attivita": {
+    "attEyebrow": {
+      "it": "Cosa facciamo",
+      "en": "What we do",
+      "pt": "O que fazemos"
+    },
+    "attTitle": {
+      "it": "Le nostre attività",
+      "en": "Our activities",
+      "pt": "As nossas atividades"
+    },
+    "attSub": {
+      "it": "Rafforziamo i legami tra i connazionali, i territori d'origine e la Regione Emilia‑Romagna, favorendo il dialogo interculturale con enti pubblici, università, imprese e associazioni.",
+      "en": "We strengthen the ties between our compatriots, their places of origin and the Emilia‑Romagna Region, fostering intercultural dialogue with public bodies, universities, companies and associations.",
+      "pt": "Reforçamos os laços entre os compatriotas, os territórios de origem e a Região Emília‑Romanha, promovendo o diálogo intercultural com entidades públicas, universidades, empresas e associações."
+    }
+  },
+  "progetti": {
+    "progEyebrow": {
+      "it": "In evidenza",
+      "en": "Featured",
+      "pt": "Em destaque"
+    },
+    "progTitle": {
+      "it": "Progetti",
+      "en": "Projects",
+      "pt": "Projetos"
+    },
+    "progIntro": {
+      "it": "Nel corso degli anni AERPI ha promosso e sostenuto numerosi progetti culturali, sociali e formativi, ispirati ai valori della cooperazione, dell'inclusione e dell'innovazione sociale.",
+      "en": "Over the years AERPI has promoted and supported numerous cultural, social and educational projects, inspired by the values of cooperation, inclusion and social innovation.",
+      "pt": "Ao longo dos anos, a AERPI promoveu e apoiou numerosos projetos culturais, sociais e formativos, inspirados nos valores da cooperação, da inclusão e da inovação social."
+    },
+    "inArrivo": {
+      "it": "In arrivo",
+      "en": "Coming soon",
+      "pt": "Em breve"
+    },
+    "leggi": {
+      "it": "Scopri di più →",
+      "en": "Learn more →",
+      "pt": "Saber mais →"
+    },
+    "modalCta": {
+      "it": "Scrivici per saperne di più",
+      "en": "Write to us to find out more",
+      "pt": "Escreve‑nos para saber mais"
+    }
+  },
+  "eventi": {
+    "evEyebrow": {
+      "it": "Agenda",
+      "en": "Agenda",
+      "pt": "Agenda"
+    },
+    "evTitle": {
+      "it": "Eventi",
+      "en": "Events",
+      "pt": "Eventos"
+    },
+    "evIntro": {
+      "it": "Incontri, conferenze e momenti di comunità organizzati da AERPI o a cui partecipiamo.",
+      "en": "Meetings, conferences and community moments organised by AERPI or that we take part in.",
+      "pt": "Encontros, conferências e momentos de comunidade organizados pela AERPI ou em que participamos."
+    },
+    "evProssimi": {
+      "it": "Prossimi eventi",
+      "en": "Upcoming events",
+      "pt": "Próximos eventos"
+    },
+    "evPassati": {
+      "it": "Eventi passati",
+      "en": "Past events",
+      "pt": "Eventos passados"
+    },
+    "evNessuno": {
+      "it": "Al momento non ci sono eventi in programma: i prossimi appuntamenti saranno annunciati qui.",
+      "en": "There are no events scheduled right now: upcoming dates will be announced here.",
+      "pt": "De momento não há eventos agendados: os próximos encontros serão anunciados aqui."
+    },
+    "evMostraTutti": {
+      "it": "Mostra tutti",
+      "en": "Show all",
+      "pt": "Ver todos"
+    },
+    "evMostraMeno": {
+      "it": "Mostra meno",
+      "en": "Show less",
+      "pt": "Ver menos"
+    },
+    "evLink": {
+      "it": "Informazioni e iscrizioni",
+      "en": "Information and registration",
+      "pt": "Informações e inscrições"
+    },
+    "evShare": {
+      "it": "Condividi",
+      "en": "Share",
+      "pt": "Partilhar"
+    },
+    "evCopied": {
+      "it": "Link copiato ✓",
+      "en": "Link copied ✓",
+      "pt": "Link copiado ✓"
+    }
+  },
+  "rete": {
+    "reteEyebrow": {
+      "it": "Non siamo soli",
+      "en": "We're not alone",
+      "pt": "Não estamos sós"
+    },
+    "reteTitle": {
+      "it": "La nostra rete",
+      "en": "Our network",
+      "pt": "A nossa rede"
+    },
+    "reteIntro": {
+      "it": "Crediamo nel valore della collaborazione!",
+      "en": "We believe in the value of collaboration!",
+      "pt": "Acreditamos no valor da colaboração!"
+    },
+    "reteIntro2": {
+      "it": "Operiamo in rete con istituzioni, associazioni, imprese e professionisti italiani e portoghesi per sviluppare progetti condivisi e creare opportunità di crescita e scambio.",
+      "en": "We work in a network with Italian and Portuguese institutions, associations, companies and professionals to develop shared projects and create opportunities for growth and exchange.",
+      "pt": "Trabalhamos em rede com instituições, associações, empresas e profissionais italianos e portugueses para desenvolver projetos partilhados e criar oportunidades de crescimento e intercâmbio."
+    },
+    "visita": {
+      "it": "Visita il sito",
+      "en": "Visit the site",
+      "pt": "Visitar o site"
+    }
+  },
+  "riconoscimenti": {
+    "ricEyebrow": {
+      "it": "Riconoscimenti e premi",
+      "en": "Awards & recognition",
+      "pt": "Reconhecimentos e prémios"
+    },
+    "ricTitle": {
+      "it": "Un lavoro riconosciuto dalle istituzioni",
+      "en": "Work recognised by the institutions",
+      "pt": "Um trabalho reconhecido pelas instituições"
+    },
+    "ricDesc": {
+      "it": "Il lavoro svolto da AERPI è riconosciuto dalle istituzioni e dalla rete delle associazioni degli emiliano‑romagnoli nel mondo.",
+      "en": "AERPI's work is recognised by the institutions and by the network of Emilia‑Romagna associations around the world.",
+      "pt": "O trabalho da AERPI é reconhecido pelas instituições e pela rede das associações dos emiliano‑romanhóis no mundo."
+    }
+  },
+  "diventaSocio": {
+    "socioEyebrow": {
+      "it": "Diventa socio",
+      "en": "Become a member",
+      "pt": "Torne‑se sócio"
+    },
+    "socioTitle": {
+      "it": "Entra a far parte della comunità.",
+      "en": "Join the community.",
+      "pt": "Faça parte da comunidade."
+    },
+    "socioPara": {
+      "it": "Entrare a far parte di AERPI significa contribuire alla diffusione della nostra cultura in Portogallo e partecipare attivamente alla vita della nostra comunità. Se condividi i nostri valori, compila il modulo di adesione e unisciti a noi.",
+      "en": "Becoming a member of AERPI means contributing to the spread of our culture in Portugal and taking an active part in the life of our community. If you share our values, fill in the membership form and join us.",
+      "pt": "Fazer parte da AERPI significa contribuir para a difusão da nossa cultura em Portugal e participar ativamente na vida da nossa comunidade. Se partilhas os nossos valores, preenche o formulário de adesão e junta‑te a nós."
+    },
+    "socioNote": {
+      "it": "Cosa ti aspetta:",
+      "en": "What's in it for you:",
+      "pt": "O que te espera:"
+    },
+    "socioB1": {
+      "it": "Partecipi agli eventi e alle iniziative dell'associazione",
+      "en": "Take part in the association's events and initiatives",
+      "pt": "Participas nos eventos e iniciativas da associação"
+    },
+    "socioB2": {
+      "it": "Entri in una rete internazionale di professionisti e famiglie",
+      "en": "Join an international network of professionals and families",
+      "pt": "Entras numa rede internacional de profissionais e famílias"
+    },
+    "socioB3": {
+      "it": "Contribuisci a progetti culturali e sociali",
+      "en": "Contribute to cultural and social projects",
+      "pt": "Contribuis para projetos culturais e sociais"
+    },
+    "socioB4": {
+      "it": "Accedi alle opportunità della rete delle associazioni ER nel mondo",
+      "en": "Access the opportunities of the worldwide ER network",
+      "pt": "Acedes às oportunidades da rede das associações ER no mundo"
+    },
+    "socioForm": {
+      "it": "Modulo di adesione",
+      "en": "Membership form",
+      "pt": "Formulário de adesão"
+    },
+    "submitSocioIdle": {
+      "it": "Iscriviti",
+      "en": "Sign up",
+      "pt": "Inscrever‑me"
+    }
+  },
+  "contatti": {
+    "contEyebrow": {
+      "it": "Contatti",
+      "en": "Contact",
+      "pt": "Contactos"
+    },
+    "contTitle": {
+      "it": "Scrivici",
+      "en": "Get in touch",
+      "pt": "Escreve‑nos"
+    },
+    "contInvite": {
+      "it": "Un progetto, un evento, un suggerimento per migliorare l'associazione: ti ascoltiamo.",
+      "en": "A project, an event, a suggestion to improve the association: we're listening.",
+      "pt": "Um projeto, um evento, uma sugestão para melhorar a associação: estamos a ouvir."
+    },
+    "contForm": {
+      "it": "Proponi un'idea",
+      "en": "Pitch an idea",
+      "pt": "Propõe uma ideia"
+    },
+    "lblEmailGen": {
+      "it": "Email",
+      "en": "Email",
+      "pt": "Email"
+    },
+    "submitContIdle": {
+      "it": "Invia",
+      "en": "Send",
+      "pt": "Enviar"
+    }
+  },
+  "moduli": {
+    "phNome": {
+      "it": "Nome",
+      "en": "First name",
+      "pt": "Nome"
+    },
+    "phCognome": {
+      "it": "Cognome",
+      "en": "Last name",
+      "pt": "Apelido(s)"
+    },
+    "phNascLuogo": {
+      "it": "Luogo di nascita",
+      "en": "Place of birth",
+      "pt": "Local de nascimento"
+    },
+    "phNascData": {
+      "it": "Data di nascita (gg/mm/aaaa)",
+      "en": "Date of birth (dd/mm/yyyy)",
+      "pt": "Data de nascimento (dd/mm/aaaa)"
+    },
+    "phTel": {
+      "it": "Telefono",
+      "en": "Phone",
+      "pt": "Telefone"
+    },
+    "phIndirizzo": {
+      "it": "Indirizzo",
+      "en": "Address",
+      "pt": "Morada"
+    },
+    "phCap": {
+      "it": "Codice postale",
+      "en": "Postal code",
+      "pt": "Código postal"
+    },
+    "phProv": {
+      "it": "Distretto / Provincia",
+      "en": "District / Province",
+      "pt": "Distrito"
+    },
+    "phMsg": {
+      "it": "Lasciaci un messaggio",
+      "en": "Leave us a message",
+      "pt": "Deixa‑nos uma mensagem"
+    },
+    "phIdea": {
+      "it": "Racconta la tua proposta o richiesta",
+      "en": "Tell us about your proposal or request",
+      "pt": "Conta‑nos a tua proposta ou pedido"
+    },
+    "privacyA": {
+      "it": "Ho letto e accetto ",
+      "en": "I have read and accept ",
+      "pt": "Li e aceito "
+    },
+    "privacyLink": {
+      "it": "l'informativa sulla privacy",
+      "en": "the privacy policy",
+      "pt": "a política de privacidade"
+    },
+    "sending": {
+      "it": "Invio in corso…",
+      "en": "Sending…",
+      "pt": "A enviar…"
+    },
+    "sent": {
+      "it": "Grazie! Ti risponderemo presto ✓",
+      "en": "Thanks! We'll be in touch soon ✓",
+      "pt": "Obrigado! Responderemos em breve ✓"
+    },
+    "errMsg": {
+      "it": "Invio non riuscito. Riprova o scrivici a info@aerpi.org",
+      "en": "Sending failed. Please retry or email info@aerpi.org",
+      "pt": "Falha no envio. Tente novamente ou escreva para info@aerpi.org"
+    }
+  },
+  "piePagina": {
+    "footTag": {
+      "it": "Associazione degli Emiliano‑Romagnoli nella Penisola Iberica · Lisbona, dal 2009.",
+      "en": "Association of Emilia‑Romagnans in the Iberian Peninsula · Lisbon, since 2009.",
+      "pt": "Associação dos Emiliano‑Romanhóis na Península Ibérica · Lisboa, desde 2009."
+    },
+    "footColPage": {
+      "it": "Pagina",
+      "en": "Page",
+      "pt": "Página"
+    },
+    "creditA": {
+      "it": "Sito realizzato da",
+      "en": "Website by",
+      "pt": "Site criado por"
+    },
+    "copyright": {
+      "it": "© AERPI — Associazione degli Emiliano‑Romagnoli nella Penisola Iberica",
+      "en": "© AERPI — Association of Emilia‑Romagnans in the Iberian Peninsula",
+      "pt": "© AERPI — Associação dos Emiliano‑Romanhóis na Península Ibérica"
+    }
+  }
+}
