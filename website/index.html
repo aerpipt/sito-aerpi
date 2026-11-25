@@ -1249,7 +1249,9 @@ if ('IntersectionObserver' in window) {
 /* I contenuti stanno in website/content/*.json (modificabili da Pages CMS, vedi .pages.yml) */
 const CONTENT_FILES = ['testi', 'attivita', 'progetti', 'eventi', 'rete', 'riconoscimenti', 'cartoline'];
 Promise.all(CONTENT_FILES.map(f => fetch('content/' + f + '.json', { cache: 'no-cache' })
-    .then(r => { if (!r.ok) throw new Error(f + ': HTTP ' + r.status); return r.json(); })))
+    .then(r => { if (!r.ok) throw new Error(f + ': HTTP ' + r.status); return r.text(); })
+    // Pages CMS scrive un file vuoto quando si cancella l'ultimo elemento di un elenco: lo trattiamo come elenco vuoto
+    .then(t => t.trim() ? JSON.parse(t) : (f === 'testi' ? Promise.reject(new Error('testi: file vuoto')) : []))))
   .then(arr => { const C = {}; CONTENT_FILES.forEach((f, i) => { C[f] = arr[i]; }); C.reteVoci = C.rete; return C; })
   .then(C => { loadContent(C); initPage(); openEventFromHash(); window.addEventListener('hashchange', openEventFromHash); })
   .catch(err => {
