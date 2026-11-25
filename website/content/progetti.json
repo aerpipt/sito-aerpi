@@ -1,5 +1,30 @@
 [
   {
+    "titolo": "Progetto di prova",
+    "immagine": "/uploads/Contatore acqua.jpg",
+    "testoAlternativo": "foto davanti di prova",
+    "inArrivo": true,
+    "etichetta": {
+      "it": "Titolo",
+      "en": "Title",
+      "pt": "Titolo"
+    },
+    "descrizione": {
+      "it": "Testo breve",
+      "en": "short text",
+      "pt": "Testo curto"
+    },
+    "testoLungo": {
+      "it": "Testo completo",
+      "en": "Full text",
+      "pt": "Testo inteiro"
+    },
+    "galleria": [
+      "/uploads/WhatsApp Image 2026-11-24 at 11.39.49.jpeg",
+      "/uploads/WhatsApp Image 2026-11-24 at 11.39.50 (1).jpeg"
+    ]
+  },
+  {
     "titolo": "“Mosaici in dialogo”",
     "id": "mosaici",
     "immagine": "/uploads/progetti/mosaici.jpg",
@@ -99,31 +124,6 @@
     },
     "galleria": [
       "/uploads/materiale/schengen/01.jpg"
-    ]
-  },
-  {
-    "titolo": "Progetto di prova",
-    "immagine": "/uploads/Contatore acqua.jpg",
-    "testoAlternativo": "foto davanti di prova",
-    "inArrivo": true,
-    "etichetta": {
-      "it": "Titolo",
-      "en": "Title",
-      "pt": "Titolo"
-    },
-    "descrizione": {
-      "it": "Testo breve",
-      "en": "short text",
-      "pt": "Testo curto"
-    },
-    "testoLungo": {
-      "it": "Testo completo",
-      "en": "Full text",
-      "pt": "Testo inteiro"
-    },
-    "galleria": [
-      "/uploads/WhatsApp Image 2026-11-24 at 11.39.49.jpeg",
-      "/uploads/WhatsApp Image 2026-11-24 at 11.39.50 (1).jpeg"
     ]
   }
 ]
