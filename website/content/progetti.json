@@ -1,7 +1,7 @@
 [
   {
-    "id": "mosaici",
     "titolo": "“Mosaici in dialogo”",
+    "id": "mosaici",
     "immagine": "/uploads/progetti/mosaici.jpg",
     "testoAlternativo": "Mosaici in dialogo",
     "inArrivo": false,
@@ -28,8 +28,8 @@
     ]
   },
   {
-    "id": "ruas",
     "titolo": "“Ruas com sotaque”",
+    "id": "ruas",
     "immagine": "/uploads/progetti/ruas.jpg",
     "testoAlternativo": "Ruas com sotaque",
     "inArrivo": true,
@@ -47,12 +47,11 @@
       "it": "\"Strade con accento\": un progetto dedicato alle voci, alle presenze e alle storie italiane nelle strade di Lisbona e della sua regione, sostenuto dal bando Cultura+ Lisboa e Vale do Tejo.",
       "en": "\"Streets with an accent\": a project dedicated to the Italian voices, presences and stories in the streets of Lisbon and its region, supported by the Cultura+ Lisboa e Vale do Tejo call.",
       "pt": "\"Ruas com sotaque\": um projeto dedicado às vozes, às presenças e às histórias italianas nas ruas de Lisboa e da sua região, apoiado pelo concurso Cultura+ Lisboa e Vale do Tejo."
-    },
-    "galleria": []
+    }
   },
   {
-    "id": "niballo",
     "titolo": "“Niballo” — Palio di Faenza",
+    "id": "niballo",
     "immagine": "/uploads/progetti/niballo.jpg",
     "testoAlternativo": "Niballo — Palio di Faenza",
     "inArrivo": false,
@@ -78,8 +77,8 @@
     ]
   },
   {
-    "id": "schengen",
     "titolo": "“Vite da Schengen”",
+    "id": "schengen",
     "immagine": "/uploads/progetti/schengen.jpg",
     "testoAlternativo": "Vite da Schengen",
     "inArrivo": false,
@@ -100,6 +99,31 @@
     },
     "galleria": [
       "/uploads/materiale/schengen/01.jpg"
+    ]
+  },
+  {
+    "titolo": "Progetto di prova",
+    "immagine": "/uploads/Contatore acqua.jpg",
+    "testoAlternativo": "foto davanti di prova",
+    "inArrivo": true,
+    "etichetta": {
+      "it": "Titolo",
+      "en": "Title",
+      "pt": "Titolo"
+    },
+    "descrizione": {
+      "it": "Testo breve",
+      "en": "short text",
+      "pt": "Testo curto"
+    },
+    "testoLungo": {
+      "it": "Testo completo",
+      "en": "Full text",
+      "pt": "Testo inteiro"
+    },
+    "galleria": [
+      "/uploads/WhatsApp Image 2026-11-24 at 11.39.49.jpeg",
+      "/uploads/WhatsApp Image 2026-11-24 at 11.39.50 (1).jpeg"
     ]
   }
 ]
