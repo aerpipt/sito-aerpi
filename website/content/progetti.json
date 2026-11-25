@@ -2,7 +2,7 @@
   {
     "id": "mosaici",
     "titolo": "“Mosaici in dialogo”",
-    "immagine": "https://commons.wikimedia.org/wiki/Special:FilePath/Mosaic%20of%20Justinianus%20I%20-%20Basilica%20San%20Vitale%20(Ravenna).jpg?width=900",
+    "immagine": "/uploads/progetti/mosaici.jpg",
     "testoAlternativo": "Mosaici in dialogo",
     "inArrivo": false,
     "etichetta": {
@@ -30,7 +30,7 @@
   {
     "id": "ruas",
     "titolo": "“Ruas com sotaque”",
-    "immagine": "https://commons.wikimedia.org/wiki/Special:FilePath/Lisbon%20main%20square%20(36622604910).jpg?width=900",
+    "immagine": "/uploads/progetti/ruas.jpg",
     "testoAlternativo": "Ruas com sotaque",
     "inArrivo": true,
     "etichetta": {
@@ -53,7 +53,7 @@
   {
     "id": "niballo",
     "titolo": "“Niballo” — Palio di Faenza",
-    "immagine": "https://commons.wikimedia.org/wiki/Special:FilePath/Faenza%2C%20piazza%20del%20Popolo%20(01).jpg?width=900",
+    "immagine": "/uploads/progetti/niballo.jpg",
     "testoAlternativo": "Niballo — Palio di Faenza",
     "inArrivo": false,
     "etichetta": {
@@ -80,7 +80,7 @@
   {
     "id": "schengen",
     "titolo": "“Vite da Schengen”",
-    "immagine": "https://commons.wikimedia.org/wiki/Special:FilePath/25%20de%20Abril%20Bridge%2C%20Lisbon.jpg?width=900",
+    "immagine": "/uploads/progetti/schengen.jpg",
     "testoAlternativo": "Vite da Schengen",
     "inArrivo": false,
     "etichetta": {

@@ -4,7 +4,7 @@
     "citta": "Bologna",
     "immagine": "/uploads/cartolina-bologna.png",
     "prodotto": "Tortellini",
-    "immagineProdotto": "https://commons.wikimedia.org/wiki/Special:FilePath/Tortellini.jpg?width=200",
+    "immagineProdotto": "/uploads/cartoline/prodotto-bo.jpg",
     "note": {
       "it": [
         "La Dotta: per l'Università più antica d'Europa (1088)",
@@ -36,7 +36,7 @@
     "citta": "Modena",
     "immagine": "/uploads/cartolina-modena.png",
     "prodotto": "Aceto Balsamico",
-    "immagineProdotto": "https://commons.wikimedia.org/wiki/Special:FilePath/Aceto%20Balsamico.jpg?width=200",
+    "immagineProdotto": "/uploads/cartoline/prodotto-mo.jpg",
     "note": {
       "it": [
         "La Motor Valley",
@@ -65,7 +65,7 @@
     "citta": "Ravenna",
     "immagine": "/uploads/cartolina-ravenna.png",
     "prodotto": "Mosaici di San Vitale",
-    "immagineProdotto": "https://commons.wikimedia.org/wiki/Special:FilePath/Mosaic%20of%20Justinianus%20I%20-%20Basilica%20San%20Vitale%20(Ravenna).jpg?width=200",
+    "immagineProdotto": "/uploads/cartoline/prodotto-ra.jpg",
     "note": {
       "it": [
         "Tre volte Capitale",
@@ -94,7 +94,7 @@
     "citta": "Parma",
     "immagine": "/uploads/cartolina-parma.png",
     "prodotto": "Prosciutto di Parma",
-    "immagineProdotto": "https://commons.wikimedia.org/wiki/Special:FilePath/Prosciutto%20di%20parma.jpg?width=400",
+    "immagineProdotto": "/uploads/cartoline/prodotto-pa.jpg",
     "note": {
       "it": [
         "Capitale italiana del gusto",
@@ -123,7 +123,7 @@
     "citta": "Reggio Emilia",
     "immagine": "/uploads/cartolina-reggio.png",
     "prodotto": "Parmigiano Reggiano",
-    "immagineProdotto": "https://commons.wikimedia.org/wiki/Special:FilePath/Parmigiano%20reggiano%20piece.jpg?width=400",
+    "immagineProdotto": "/uploads/cartoline/prodotto-re.jpg",
     "note": {
       "it": [
         "La città dove nacque il Tricolore italiano!",
@@ -149,7 +149,7 @@
     "citta": "Rimini",
     "immagine": "/uploads/cartolina-rimini.png",
     "prodotto": "Piadina romagnola",
-    "immagineProdotto": "https://commons.wikimedia.org/wiki/Special:FilePath/Piadina.jpg?width=400",
+    "immagineProdotto": "/uploads/cartoline/prodotto-ri.jpg",
     "note": {
       "it": [
         "Città natale di Federico Fellini!",
